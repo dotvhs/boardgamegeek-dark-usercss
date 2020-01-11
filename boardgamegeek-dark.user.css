@@ -1,0 +1,212 @@
+/* ==UserStyle==
+@name         Template
+@version      1.0.0
+@description  Just an empty UserCSS template
+@namespace    https://github.com/dotvhs/boardgamegeek-dark-usercss
+@author       dotvhs
+@homepageURL  https://github.com/dotvhs/boardgamegeek-dark-usercss
+@supportURL   https://github.com/dotvhs/boardgamegeek-dark-usercss/issues
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("boardgamegeek.com") {
+  body {
+    background-color: #12111c;
+    color: #eee; }
+    body a {
+      color: #5c9fe6; }
+      body a:hover {
+        color: #9acafd; }
+    body .nav-tabs-more-dropdown a:link,
+    body .summary-image-item .summary-item-title a:link,
+    body .panel-body-toolbar > a:link,
+    body .advertisement-text-body a:link,
+    body ul.global-secondary-nav-links a:link,
+    body .nav-tabs-more-dropdown a:visited,
+    body .summary-image-item .summary-item-title a:visited,
+    body .panel-body-toolbar > a:visited,
+    body .advertisement-text-body a:visited,
+    body ul.global-secondary-nav-links a:visited,
+    body .link-text-color:link,
+    body .link-text-color:visited,
+    body .nav.nav-tabs > li.active > a:active,
+    body .nav.nav-tabs > li.active > a:hover,
+    body .nav.nav-tabs > li.active > a:focus,
+    body .nav.nav-tabs > li.active > a:visited,
+    body .nav.nav-tabs > li > a,
+    body .panel-header-lg .panel-title,
+    body .game-awards.panel p a:link,
+    body .game-awards.panel li a:link,
+    body .wiki_angular a:link,
+    body .logged-play-meta a:link,
+    body .flash a:link:not(.btn),
+    body .modal-body-intro a:link,
+    body .summary-item-description a:link,
+    body .panel-cta-secondary > a:link:not(.btn),
+    body .panel-expandable .expandable-body a:link,
+    body .panel-cta-list-links a:link,
+    body .panel-inline-links > a:link:not(.btn),
+    body .panel-inline-links > span > a:link:not(.btn),
+    body ul.list-normal a:link,
+    body .game-awards.panel p a:active,
+    body .game-awards.panel li a:active,
+    body .wiki_angular a:active,
+    body .logged-play-meta a:active,
+    body .flash a:active:not(.btn),
+    body .modal-body-intro a:active,
+    body .summary-item-description a:active,
+    body .panel-cta-secondary > a:active:not(.btn),
+    body .panel-expandable .expandable-body a:active,
+    body .panel-cta-list-links a:active,
+    body .panel-inline-links > a:active:not(.btn),
+    body .panel-inline-links > span > a:active:not(.btn),
+    body ul.list-normal a:active,
+    body .game-awards.panel p a:focus,
+    body .game-awards.panel li a:focus,
+    body .wiki_angular a:focus,
+    body .logged-play-meta a:focus,
+    body .flash a:focus:not(.btn),
+    body .modal-body-intro a:focus,
+    body .summary-item-description a:focus,
+    body .panel-cta-secondary > a:focus:not(.btn),
+    body .panel-expandable .expandable-body a:focus,
+    body .panel-cta-list-links a:focus,
+    body .panel-inline-links > a:focus:not(.btn),
+    body .panel-inline-links > span > a:focus:not(.btn),
+    body ul.list-normal a:focus,
+    body .game-awards.panel p a:hover,
+    body .game-awards.panel li a:hover,
+    body .wiki_angular a:hover,
+    body .logged-play-meta a:hover,
+    body .flash a:hover:not(.btn),
+    body .modal-body-intro a:hover,
+    body .summary-item-description a:hover,
+    body .panel-cta-secondary > a:hover:not(.btn),
+    body .panel-expandable .expandable-body a:hover,
+    body .panel-cta-list-links a:hover,
+    body .panel-inline-links > a:hover:not(.btn),
+    body .panel-inline-links > span > a:hover:not(.btn),
+    body ul.list-normal a:hover,
+    body .game-awards.panel p a:visited,
+    body .game-awards.panel li a:visited,
+    body .wiki_angular a:visited,
+    body .logged-play-meta a:visited,
+    body .flash a:visited:not(.btn),
+    body .modal-body-intro a:visited,
+    body .summary-item-description a:visited,
+    body .panel-cta-secondary > a:visited:not(.btn),
+    body .panel-expandable .expandable-body a:visited,
+    body .panel-cta-list-links a:visited,
+    body .panel-inline-links > a:visited:not(.btn),
+    body .panel-inline-links > span > a:visited:not(.btn),
+    body ul.list-normal a:visited,
+    body .link-border-muted:link,
+    body .link-border-muted:active,
+    body .link-border-muted:focus,
+    body .link-border-muted:hover,
+    body .link-border-muted:visited {
+      color: #eeeeee; }
+    body .game-awards.panel p a:link,
+    body .game-awards.panel li a:link,
+    body .wiki_angular a:link,
+    body .logged-play-meta a:link,
+    body .flash a:link:not(.btn),
+    body .modal-body-intro a:link,
+    body .summary-item-description a:link,
+    body .panel-cta-secondary > a:link:not(.btn),
+    body .panel-expandable .expandable-body a:link,
+    body .panel-cta-list-links a:link,
+    body .panel-inline-links > a:link:not(.btn),
+    body .panel-inline-links > span > a:link:not(.btn),
+    body ul.list-normal a:link,
+    body .game-awards.panel p a:active,
+    body .game-awards.panel li a:active,
+    body .wiki_angular a:active,
+    body .logged-play-meta a:active,
+    body .flash a:active:not(.btn),
+    body .modal-body-intro a:active,
+    body .summary-item-description a:active,
+    body .panel-cta-secondary > a:active:not(.btn),
+    body .panel-expandable .expandable-body a:active,
+    body .panel-cta-list-links a:active,
+    body .panel-inline-links > a:active:not(.btn),
+    body .panel-inline-links > span > a:active:not(.btn),
+    body ul.list-normal a:active,
+    body .game-awards.panel p a:focus,
+    body .game-awards.panel li a:focus,
+    body .wiki_angular a:focus,
+    body .logged-play-meta a:focus,
+    body .flash a:focus:not(.btn),
+    body .modal-body-intro a:focus,
+    body .summary-item-description a:focus,
+    body .panel-cta-secondary > a:focus:not(.btn),
+    body .panel-expandable .expandable-body a:focus,
+    body .panel-cta-list-links a:focus,
+    body .panel-inline-links > a:focus:not(.btn),
+    body .panel-inline-links > span > a:focus:not(.btn),
+    body ul.list-normal a:focus,
+    body .game-awards.panel p a:hover,
+    body .game-awards.panel li a:hover,
+    body .wiki_angular a:hover,
+    body .logged-play-meta a:hover,
+    body .flash a:hover:not(.btn),
+    body .modal-body-intro a:hover,
+    body .summary-item-description a:hover,
+    body .panel-cta-secondary > a:hover:not(.btn),
+    body .panel-expandable .expandable-body a:hover,
+    body .panel-cta-list-links a:hover,
+    body .panel-inline-links > a:hover:not(.btn),
+    body .panel-inline-links > span > a:hover:not(.btn),
+    body ul.list-normal a:hover,
+    body .game-awards.panel p a:visited,
+    body .game-awards.panel li a:visited,
+    body .wiki_angular a:visited,
+    body .logged-play-meta a:visited,
+    body .flash a:visited:not(.btn),
+    body .modal-body-intro a:visited,
+    body .summary-item-description a:visited,
+    body .panel-cta-secondary > a:visited:not(.btn),
+    body .panel-expandable .expandable-body a:visited,
+    body .panel-cta-list-links a:visited,
+    body .panel-inline-links > a:visited:not(.btn),
+    body .panel-inline-links > span > a:visited:not(.btn),
+    body ul.list-normal a:visited,
+    body .link-border-muted:link,
+    body .link-border-muted:active,
+    body .link-border-muted:focus,
+    body .link-border-muted:hover,
+    body .link-border-muted:visited {
+      border-bottom: 1px dotted rgba(204, 204, 204, 0.7); }
+    body .expandable div.expandable-envelope p.expandable-overlay {
+      background-image: linear-gradient(to bottom, rgba(18, 17, 28, 0), #12111c); }
+    body ul.global-secondary-nav-links > li {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+    body .legacy,
+    body .global-body-content-primary {
+      background-color: transparent; }
+    body .global-header {
+      margin-bottom: 0; }
+    body .global-body-content-container .global-secondary-nav {
+      width: 250px;
+      padding-right: 0;
+      background-color: #28253e; }
+    body .global-secondary-nav-section .toggler-caret-target,
+    body geekoutput-sidebar {
+      background-color: #28253e; }
+    body .global-secondary-nav-section-header,
+    body .global-secondary-nav-section-header.toggler-caret {
+      padding: 15px 7px;
+      font-size: 13px; }
+    body .container-fluid {
+      max-width: 100%;
+      padding: 0; }
+    body .legacy .collection_table td {
+      border: 0; }
+    body .legacy .collection_table tr:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.2); }
+    body .game-header .game-header-image {
+      width: 300px; }
+    body .game-nav-tabs {
+      background-color: transparent; }
+    body .global-body-ad,
+    body .game-description-ad {
+      display: none; } }

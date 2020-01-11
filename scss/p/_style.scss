@@ -1,3 +1,236 @@
 body {
-	font-size: 100%;
+	background-color: #12111c;
+	color: #eee;
+
+	a {
+		color: #5c9fe6;
+		&:hover {
+			color: #9acafd;
+		}
+	}
+
+	.nav-tabs-more-dropdown a:link,
+	.summary-image-item .summary-item-title a:link,
+	.panel-body-toolbar > a:link,
+	.advertisement-text-body a:link,
+	ul.global-secondary-nav-links a:link,
+	.nav-tabs-more-dropdown a:visited,
+	.summary-image-item .summary-item-title a:visited,
+	.panel-body-toolbar > a:visited,
+	.advertisement-text-body a:visited,
+	ul.global-secondary-nav-links a:visited,
+	.link-text-color:link,
+	.link-text-color:visited,
+	.nav.nav-tabs > li.active > a:active,
+	.nav.nav-tabs > li.active > a:hover,
+	.nav.nav-tabs > li.active > a:focus,
+	.nav.nav-tabs > li.active > a:visited,
+	.nav.nav-tabs > li > a,
+	.panel-header-lg .panel-title,
+	.game-awards.panel p a:link,
+	.game-awards.panel li a:link,
+	.wiki_angular a:link,
+	.logged-play-meta a:link,
+	.flash a:link:not(.btn),
+	.modal-body-intro a:link,
+	.summary-item-description a:link,
+	.panel-cta-secondary > a:link:not(.btn),
+	.panel-expandable .expandable-body a:link,
+	.panel-cta-list-links a:link,
+	.panel-inline-links > a:link:not(.btn),
+	.panel-inline-links > span > a:link:not(.btn),
+	ul.list-normal a:link,
+	.game-awards.panel p a:active,
+	.game-awards.panel li a:active,
+	.wiki_angular a:active,
+	.logged-play-meta a:active,
+	.flash a:active:not(.btn),
+	.modal-body-intro a:active,
+	.summary-item-description a:active,
+	.panel-cta-secondary > a:active:not(.btn),
+	.panel-expandable .expandable-body a:active,
+	.panel-cta-list-links a:active,
+	.panel-inline-links > a:active:not(.btn),
+	.panel-inline-links > span > a:active:not(.btn),
+	ul.list-normal a:active,
+	.game-awards.panel p a:focus,
+	.game-awards.panel li a:focus,
+	.wiki_angular a:focus,
+	.logged-play-meta a:focus,
+	.flash a:focus:not(.btn),
+	.modal-body-intro a:focus,
+	.summary-item-description a:focus,
+	.panel-cta-secondary > a:focus:not(.btn),
+	.panel-expandable .expandable-body a:focus,
+	.panel-cta-list-links a:focus,
+	.panel-inline-links > a:focus:not(.btn),
+	.panel-inline-links > span > a:focus:not(.btn),
+	ul.list-normal a:focus,
+	.game-awards.panel p a:hover,
+	.game-awards.panel li a:hover,
+	.wiki_angular a:hover,
+	.logged-play-meta a:hover,
+	.flash a:hover:not(.btn),
+	.modal-body-intro a:hover,
+	.summary-item-description a:hover,
+	.panel-cta-secondary > a:hover:not(.btn),
+	.panel-expandable .expandable-body a:hover,
+	.panel-cta-list-links a:hover,
+	.panel-inline-links > a:hover:not(.btn),
+	.panel-inline-links > span > a:hover:not(.btn),
+	ul.list-normal a:hover,
+	.game-awards.panel p a:visited,
+	.game-awards.panel li a:visited,
+	.wiki_angular a:visited,
+	.logged-play-meta a:visited,
+	.flash a:visited:not(.btn),
+	.modal-body-intro a:visited,
+	.summary-item-description a:visited,
+	.panel-cta-secondary > a:visited:not(.btn),
+	.panel-expandable .expandable-body a:visited,
+	.panel-cta-list-links a:visited,
+	.panel-inline-links > a:visited:not(.btn),
+	.panel-inline-links > span > a:visited:not(.btn),
+	ul.list-normal a:visited,
+	.link-border-muted:link,
+	.link-border-muted:active,
+	.link-border-muted:focus,
+	.link-border-muted:hover,
+	.link-border-muted:visited {
+		color: rgba(#eee, 1);
+	}
+
+	.game-awards.panel p a:link,
+	.game-awards.panel li a:link,
+	.wiki_angular a:link,
+	.logged-play-meta a:link,
+	.flash a:link:not(.btn),
+	.modal-body-intro a:link,
+	.summary-item-description a:link,
+	.panel-cta-secondary > a:link:not(.btn),
+	.panel-expandable .expandable-body a:link,
+	.panel-cta-list-links a:link,
+	.panel-inline-links > a:link:not(.btn),
+	.panel-inline-links > span > a:link:not(.btn),
+	ul.list-normal a:link,
+	.game-awards.panel p a:active,
+	.game-awards.panel li a:active,
+	.wiki_angular a:active,
+	.logged-play-meta a:active,
+	.flash a:active:not(.btn),
+	.modal-body-intro a:active,
+	.summary-item-description a:active,
+	.panel-cta-secondary > a:active:not(.btn),
+	.panel-expandable .expandable-body a:active,
+	.panel-cta-list-links a:active,
+	.panel-inline-links > a:active:not(.btn),
+	.panel-inline-links > span > a:active:not(.btn),
+	ul.list-normal a:active,
+	.game-awards.panel p a:focus,
+	.game-awards.panel li a:focus,
+	.wiki_angular a:focus,
+	.logged-play-meta a:focus,
+	.flash a:focus:not(.btn),
+	.modal-body-intro a:focus,
+	.summary-item-description a:focus,
+	.panel-cta-secondary > a:focus:not(.btn),
+	.panel-expandable .expandable-body a:focus,
+	.panel-cta-list-links a:focus,
+	.panel-inline-links > a:focus:not(.btn),
+	.panel-inline-links > span > a:focus:not(.btn),
+	ul.list-normal a:focus,
+	.game-awards.panel p a:hover,
+	.game-awards.panel li a:hover,
+	.wiki_angular a:hover,
+	.logged-play-meta a:hover,
+	.flash a:hover:not(.btn),
+	.modal-body-intro a:hover,
+	.summary-item-description a:hover,
+	.panel-cta-secondary > a:hover:not(.btn),
+	.panel-expandable .expandable-body a:hover,
+	.panel-cta-list-links a:hover,
+	.panel-inline-links > a:hover:not(.btn),
+	.panel-inline-links > span > a:hover:not(.btn),
+	ul.list-normal a:hover,
+	.game-awards.panel p a:visited,
+	.game-awards.panel li a:visited,
+	.wiki_angular a:visited,
+	.logged-play-meta a:visited,
+	.flash a:visited:not(.btn),
+	.modal-body-intro a:visited,
+	.summary-item-description a:visited,
+	.panel-cta-secondary > a:visited:not(.btn),
+	.panel-expandable .expandable-body a:visited,
+	.panel-cta-list-links a:visited,
+	.panel-inline-links > a:visited:not(.btn),
+	.panel-inline-links > span > a:visited:not(.btn),
+	ul.list-normal a:visited,
+	.link-border-muted:link,
+	.link-border-muted:active,
+	.link-border-muted:focus,
+	.link-border-muted:hover,
+	.link-border-muted:visited {
+		border-bottom: 1px dotted rgba(#ccc, 0.7);
+	}
+
+	.expandable div.expandable-envelope p.expandable-overlay {
+		background-image: linear-gradient(to bottom, rgba(#12111c, 0), #12111c);
+	}
+
+	ul.global-secondary-nav-links > li {
+		border-bottom: 1px solid rgba(#000, 0.3);
+	}
+
+	.legacy,
+	.global-body-content-primary {
+		background-color: transparent;
+	}
+
+	.global-header {
+		margin-bottom: 0;
+	}
+
+	.global-body-content-container {
+		.global-secondary-nav {
+			width: 250px;
+			padding-right: 0;
+			background-color: #28253e;
+		}
+	}
+	.global-secondary-nav-section .toggler-caret-target,
+	geekoutput-sidebar {
+		background-color: #28253e;
+	}
+
+	.global-secondary-nav-section-header,
+	.global-secondary-nav-section-header.toggler-caret {
+		padding: 15px 7px;
+		font-size: 13px;
+	}
+
+	.container-fluid {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.legacy .collection_table td {
+		border: 0;
+	}
+
+	.legacy .collection_table tr:nth-child(even) {
+		background-color: rgba(#000, 0.2);
+	}
+
+	.game-header {
+		.game-header-image {
+			width: 300px;
+		}
+	}
+	.game-nav-tabs {
+		background-color: transparent;
+	}
+	.global-body-ad,
+	.game-description-ad {
+		display: none;
+	}
 }

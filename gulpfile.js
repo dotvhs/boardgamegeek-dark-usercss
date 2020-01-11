@@ -3,7 +3,7 @@ var gulp = require("gulp"),
 	cleanCSS = require("gulp-clean-css");
 rename = require("gulp-rename");
 
-var fileName = "template.user.css";
+var fileName = "boardgamegeek-dark.user.css";
 
 var paths = {
 	dest: ".",
